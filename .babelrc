@@ -1,0 +1,16 @@
+{
+  "exclude": "/node_modules/",
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "corejs": 3,
+        "modules": false,
+        "targets": {
+          "ie": 11
+        },
+        "useBuiltIns": "usage"
+      }
+    ]
+  ]
+}

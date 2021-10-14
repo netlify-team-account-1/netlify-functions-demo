@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "canonical",
+    "canonical/node",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "filenames/match-exported": "off",
+    "filenames/match-regex": "off",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "caseInsensitive": true,
+          "order": "asc"
+        },
+        "newlines-between": "always"
+      }
+    ],
+    "node/no-process-env": "off",
+    "node/no-unpublished-import": "off"
+  }
+}
