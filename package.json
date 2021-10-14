@@ -22,7 +22,7 @@
   },
   "name": "netlify-functions-demo",
   "scripts": {
-    "build": "rollup -c -f cjs -i src/functions/nonsense.js -o dist/functions/nonsense.js",
+    "build": "rollup -c -f cjs -i src/functions/nonsense.js -o dist/functions/nonsense.cjs",
     "prebuild": "./scripts/prebuild.sh"
   },
   "type": "module",
